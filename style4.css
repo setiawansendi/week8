@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+    background-color: bisque;
+    height: 20vh;
+    margin-left: 128px;
+}
+#mawn{
+    display: flex;
+}
+#mawn article,
+#mawn aside{
+    height: 60vh;
+    margin-left: 128px;
+}
+#mawn nav{
+    background-color: pink;
+    width: 10vw;
+    position: absolute;
+    left: 0px;
+    height: 100vh;
+    top: 0px;
+}
+#mawn article{
+    background-color: white;
+    width: 50vw;
+    flex: 1;
+}
+#mawn aside{
+    background-color: aqua;
+    width: 20vw;
+    flex: 1;
+}

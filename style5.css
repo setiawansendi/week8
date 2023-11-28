@@ -1,0 +1,44 @@
+*{
+    font-family: Georgia;
+    font-size:20px;
+    color:white;
+    text-align: center;
+}
+body{
+    min-height:100vh ;
+    background-color: rgb(139, 110, 132);
+   
+}
+header,footer{
+    background-color:rgb(185, 127, 175);
+    padding:10px;
+    margin:15px;
+}
+main{
+    display:flex;
+    flex:1;
+    height:75vh ;
+    margin:15px;
+}
+main  aside{
+    background-color:rgb(184, 124, 161);
+    flex:1;
+    padding:15px;
+    margin:15px;
+}
+main  article{
+    background-color:rgb(131, 70, 113);
+    flex:3;
+    padding:15px;
+    margin:15px;
+    
+}
+aside h2{
+    margin-top:50%;
+    margin-bottom:50%;
+}
+ img{
+    margin:15px;
+    margin-top:20%;
+    margin-bottom:20%;
+}
